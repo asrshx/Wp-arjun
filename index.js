@@ -24,7 +24,7 @@ if (majorVersion > 20) {
 }
 
 const app = express();
-const PORT = process.env.PORT || 21592;
+const PORT = process.env.PORT || 8080;
 
 // Directories
 const AUTH_DIR = "./auth_sessions";
